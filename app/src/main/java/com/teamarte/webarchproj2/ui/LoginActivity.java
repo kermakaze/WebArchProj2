@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.teamarte.webarchproj2.App;
 import com.teamarte.webarchproj2.R;
 import com.teamarte.webarchproj2.api.ApiServiceProvider;
 import com.teamarte.webarchproj2.api.request.LoginRequest;
@@ -63,6 +64,11 @@ public class LoginActivity extends AppCompatActivity {
                         if(response.isSuccessful()){
                             Toast.makeText(LoginActivity.this, "Login Success",Toast.LENGTH_SHORT)
                                     .show();
+
+                            App.setCurrentUserId(response.body().getUserId());
+                            Intent i = new Intent(LoginActivity.this,
+                                    MainActivity.class);
+                            startActivity(i);
                         }
                         else {
                             try {
