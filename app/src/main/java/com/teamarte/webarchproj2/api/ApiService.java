@@ -1,5 +1,6 @@
 package com.teamarte.webarchproj2.api;
 
+import com.teamarte.webarchproj2.api.request.DetailsRequest;
 import com.teamarte.webarchproj2.api.request.RegisterRequest;
 import com.teamarte.webarchproj2.api.response.AuthResponse;
 import com.teamarte.webarchproj2.api.request.LoginRequest;
@@ -19,6 +20,9 @@ public interface ApiService {
     @POST("/register")
     Call<AuthResponse> registerUser(@Body RegisterRequest authRequest);
 
+
+    @POST("/user_details")
+    Call<String> uploadDetails(@Body DetailsRequest detailsRequest);
 
 
 
