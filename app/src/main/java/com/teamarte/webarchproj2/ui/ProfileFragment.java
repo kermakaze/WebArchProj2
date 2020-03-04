@@ -67,6 +67,8 @@ public class ProfileFragment extends Fragment {
         mBinding.phoneNumberEditText.setText(profileResponse.getPhoneNumber());
         mBinding.digitalAddressEditText.setText(profileResponse.getDigitalAddress());
         mBinding.addressEditText.setText(profileResponse.getAddress());
+        mBinding.maritalStatusEditText.setText(profileResponse.getMaritalStatus());
+        mBinding.employedmentStatusEditText.setText(profileResponse.getEmploymentStatus());
     }
 
 }

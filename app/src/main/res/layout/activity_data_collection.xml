@@ -32,19 +32,23 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Married"/>
+            android:text="Married"
+            android:id="@+id/marriedRB"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Single"/>
+            android:text="Single"
+            android:id="@+id/singleRB"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Divorced"/>
+            android:text="Divorced"
+            android:id="@+id/divorcedRB"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Widowed"/>
+            android:text="Widowed"
+            android:id="@+id/widowedRB"/>
     </RadioGroup>
 
 
@@ -63,15 +67,18 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Student"/>
+            android:text="Student"
+            android:id="@+id/studentRB"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Employed"/>
+            android:text="Employed"
+            android:id="@+id/employedRB"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pensioneer"/>
+            android:text="Pensioneer"
+            android:id="@+id/pensionRB"/>
     </RadioGroup>
 
 
