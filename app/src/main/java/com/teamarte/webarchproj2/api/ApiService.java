@@ -4,6 +4,7 @@ import com.teamarte.webarchproj2.api.request.DetailsRequest;
 import com.teamarte.webarchproj2.api.request.RegisterRequest;
 import com.teamarte.webarchproj2.api.response.AuthResponse;
 import com.teamarte.webarchproj2.api.request.LoginRequest;
+import com.teamarte.webarchproj2.api.response.GenericResponse;
 import com.teamarte.webarchproj2.api.response.RegistrationResponse;
 
 import retrofit2.Call;
@@ -22,7 +23,7 @@ public interface ApiService {
 
 
     @POST("/user_details")
-    Call<String> uploadDetails(@Body DetailsRequest detailsRequest);
+    Call<GenericResponse> uploadDetails(@Body DetailsRequest detailsRequest);
 
 
 
