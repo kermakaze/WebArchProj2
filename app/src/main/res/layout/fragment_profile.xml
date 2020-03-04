@@ -9,6 +9,13 @@
     android:padding="16dp"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Profile"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -18,6 +25,8 @@
             android:hint="Full Name"
             android:id="@+id/fullNameEditText"
             android:editable="false"
+            android:background="@drawable/edit_text_bg"
+            android:padding="16dp"
             />
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
@@ -29,7 +38,9 @@
             android:layout_height="wrap_content"
             android:hint="Email"
             android:editable="false"
-            android:id="@+id/emailEditText"/>
+            android:id="@+id/emailEditText"
+            android:background="@drawable/edit_text_bg"
+            android:padding="16dp"/>
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -40,7 +51,9 @@
             android:layout_height="wrap_content"
             android:hint="Phone Number"
             android:editable="false"
-            android:id="@+id/phoneNumberEditText"/>
+            android:id="@+id/phoneNumberEditText"
+            android:background="@drawable/edit_text_bg"
+            android:padding="16dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -52,7 +65,9 @@
             android:layout_height="wrap_content"
             android:hint="Digital Address"
             android:editable="false"
-            android:id="@+id/digitalAddressEditText"/>
+            android:id="@+id/digitalAddressEditText"
+            android:background="@drawable/edit_text_bg"
+            android:padding="16dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -64,7 +79,9 @@
             android:layout_height="wrap_content"
             android:hint="Address"
             android:editable="false"
-            android:id="@+id/addressEditText"/>
+            android:id="@+id/addressEditText"
+            android:background="@drawable/edit_text_bg"
+            android:padding="16dp"/>
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -75,7 +92,11 @@
             android:layout_height="wrap_content"
             android:hint="Relationship Status"
             android:editable="false"
-            android:id="@+id/maritalStatusEditText"/>
+            android:id="@+id/maritalStatusEditText"
+            android:background="@drawable/edit_text_bg"
+            android:padding="16dp"
+
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -87,7 +108,9 @@
             android:layout_height="wrap_content"
             android:hint="Employment Status"
             android:editable="false"
-            android:id="@+id/employedmentStatusEditText"/>
+            android:id="@+id/employedmentStatusEditText"
+            android:background="@drawable/edit_text_bg"
+            android:padding="16dp"/>
     </com.google.android.material.textfield.TextInputLayout>
    <Button
        android:layout_width="match_parent"

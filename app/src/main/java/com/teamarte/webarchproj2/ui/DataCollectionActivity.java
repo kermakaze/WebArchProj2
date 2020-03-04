@@ -85,6 +85,7 @@ public class DataCollectionActivity extends AppCompatActivity {
                         if(response.isSuccessful()){
                             Intent i = new Intent(DataCollectionActivity.this, MainActivity.class);
                             startActivity(i);
+                            finish();
                         }
                         else {
                             try {

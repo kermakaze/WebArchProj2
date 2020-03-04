@@ -74,6 +74,7 @@ public class RegisterActivity extends AppCompatActivity {
                             App.setCurrentUserId(response.body().getUserId());
                             Intent i = new Intent(RegisterActivity.this, DataCollectionActivity.class);
                             RegisterActivity.this.startActivity(i);
+                            finish();
 
 
                         } else {

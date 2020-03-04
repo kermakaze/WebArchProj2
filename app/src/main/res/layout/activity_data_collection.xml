@@ -17,14 +17,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="National ID No."
-            android:id="@+id/nationalIdEditText"/>
+            android:id="@+id/nationalIdEditText"
+            android:background="@drawable/edit_text_bg"
+            android:padding="16dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Marital Status"
-        android:id="@+id/maritalStatusRadioGroup"/>
+        android:id="@+id/maritalStatusRadioGroup"
+        android:layout_marginTop="16dp"/>
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -59,7 +62,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Employment Status"
-        android:id="@+id/employmentStatusRadioGroup"/>
+        android:id="@+id/employmentStatusRadioGroup"
+        android:layout_marginTop="16dp"/>
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -91,6 +95,8 @@
             android:layout_height="wrap_content"
             android:hint="Digital Address"
             android:inputType="textCapCharacters"
+            android:background="@drawable/edit_text_bg"
+            android:padding="16dp"
             />
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
@@ -101,7 +107,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="House Address"
-            android:inputType="textPostalAddress"/>
+            android:inputType="textPostalAddress"
+            android:background="@drawable/edit_text_bg"
+            android:padding="16dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -109,7 +117,11 @@
         android:id="@+id/saveButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SAVE"/>
+        android:text="SAVE"
+        android:background="@drawable/edit_profile_bg"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
 
 
 
